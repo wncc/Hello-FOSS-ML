@@ -8,7 +8,12 @@ This project is a part of HELLO-FOSS: Celebration of Open Source by the Web and 
 Absolutely No Prerequisites for contributing to this Project.
 We will be using Juniper Notebooks for our Project. If you are an absolute beginner in python have a look at [this](https://github.com/wncc/learners-space/tree/master/Python).
 
-## Tasks on MNSIT Dataset
+# 1) Handwritten Digit Recognizer
+
+**MNIST** ("Modified National Institute of Standards and Technology") is the de facto “hello world” dataset of computer vision. Since its release in 1999, this classic dataset of handwritten images has served as the basis for benchmarking classification algorithms. As new machine learning techniques emerge, MNIST remains a reliable resource for researchers and learners alike.
+
+### Problem Statement
+You can do one or more of the following - 
 
 ### Task-1:
 
@@ -25,3 +30,37 @@ We will be using Juniper Notebooks for our Project. If you are an absolute begin
 ### Task-3:
 - Code to get the training and testing data has already been written [Filename: MNIST_FIT].
 - Your task is to train this data in the least time and with the best accuracy. Any algorithm can be used to do so, to implement algorithms in tensorflow refer to [this](https://www.tensorflow.org/tutorials) or [this](https://www.kaggle.com/learn/overview).
+
+
+# 2) Titanic: Machine Learning from Disaster
+This is the legendary Titanic ML problem – a good challenge for you to dive into Open Source through ML. The sinking of the Titanic is one of the most infamous shipwrecks in history.
+
+On April 15, 1912, during her maiden voyage, the widely considered ''unsinkable'' RMS Titanic sank after colliding with an iceberg. Unfortunately, there weren’t enough lifeboats for everyone onboard, resulting in the death of 1502 out of 2224 passengers and crew.
+
+While there was some element of luck involved in surviving, it seems some groups of people were more likely to survive than others.
+
+In this challenge, we ask you to build a predictive model that answers the question: ''what sorts of people were more likely to survive?'' using passenger data (ie name, age, gender, socio-economic class, etc).
+
+### Overview of Dataset
+The data has been split into two groups:
+
+training set (train.csv)
+test set (test.csv)
+The training set should be used to build your machine learning models. For the training set, we provide the outcome (also known as the ''ground truth'') for each passenger. Your model will be based on ''features'' like passengers' gender and class. You can also use **feature engineering** to create new features.
+
+The test set should be used to see how well your model performs on unseen data. For the test set, we do not provide the ground truth for each passenger. It is your job to predict these outcomes. For each passenger in the test set, use the model you trained to predict whether or not they survived the sinking of the Titanic.
+
+We also include `gender_submission.csv`, a set of predictions that assume all and only female passengers survive, as an example of what a submission file should look like.
+
+### Problem Statement
+You can choose to do one or more of the following tasks - 
+1. **Exploratory Data Visualisation** - The notebooks already have the part included which provide analysis of main characteristics of data. You are welcome to add to this for visualising more trends.
+2. **Hyperparameter tuning** - A neural network has been trained on the dataset in [this notebook](./Titanic%20neural%20network%20Tensorflow.ipynb) but it has very low accuracy. Your task is to tune the hyperparameters and improve the model. Some suggestions - modifying the optimizer, adding more hidden layers to the model or changing the dimension of layers, adding dropout, regularization etc.
+3. **Back-Propogation in Numpy** - A neural network has been coded from scratch in Numpy on the dataset in [this notebook](./Titanic%20neural%20network%20Numpy%20from%20scratch.ipynb) but it is incomplete; it misses the function for calculating gradients during back-propogation. Your task is to complete the function for calculating gradients, train the model and output the predictions on test data to a csv file.
+4. **Implementing algorithm in sklearn** - Apart from a neural network, there are many other ML algorithms that can be used to make predictions in this challenge. Notebooks for some of them have been put up but only with data reading and visualisation part completed. Your task is to write the code for implementing the specificied algortihm on the dataset using sklearn library and printing the predictions to a csv file. You can choose from any of the following or get started with one of your own! 
+  * [Logistic Regression](./Titanic%20logistic%20regression%20Tensorflow.ipynb)
+  * [Support Vector Machine](./Titanic%20SVM%20Tensorflow.ipynb)
+  * [Random Forests](./Titanic%20Random%20Forest%20Tensorflow.ipynb)
+  * [K-Nearest Neighbours](./Titanic%20KNN%20Tensorflow.ipynb)
+  * [Gaussian Naive Bayes model](./Titanic%20GaussianNB%20Tensorflow.ipynb)
+
