@@ -70,7 +70,7 @@ You can do one or more of the following -
 **Task-4:**
 - Generative Adversarial Networks, or GANs for short, are an approach to generative modeling using deep learning methods, such as convolutional neural networks. An incomplete DCGAN has been implemented on the MNIST dataset in Tensorflow. 
 - Your task is to define and the Discriminator and Generator Model and the create GIFs for visualising generation of Handwritten Digits from Random Noise. 
-- A very detailed explanation of GANs has also been given in the notebook.
+- A very detailed explanation of GANs has also been given in the [notebook](./DCGan_MNIST.ipynb)
 
 **Task-5:**
 - Build a CNN model for Fashion MNIST dataset. An incomplete model has been build for you in this [notebook](./CNN%20Fashion%20mnist.ipynb)
@@ -78,7 +78,9 @@ You can do one or more of the following -
 - Subsequently make predictions on the test set and plot the confusion matrix.
 
 **Task-6:**
-- Train a GAN on the Fashion MNIST dataset
+- Train a GAN on the Fashion MNIST dataset. Code for Conditional GAN on it has been included in the [notebook](./Conditional%20GAN%20Fashion%20MNIST%20.ipynb)
+- Your task is to complete the generator and discriminator functions, train the model and save the generated images.
+- Subsequenlty, you have to create a markdown file with display of those generated images and a short summary explaining the theory behind Conditional GANs (Be as creative as you can :)
 
 **Task-7:**
 - All the notebooks we have provided are in Tensorflow as of now. This is a flexible task wherein you have to implement the above in PyTorch. 
