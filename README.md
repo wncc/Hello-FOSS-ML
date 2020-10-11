@@ -7,7 +7,6 @@ This project is a part of HELLO-FOSS: Celebration of Open Source by the Web and 
 
 Absolutely No Prerequisites for contributing to this Project.
 We will be using Juniper Notebooks for our Project. If you are an absolute beginner in python have a look at [this](https://github.com/wncc/learners-space/tree/master/Python).
-Note:  Do update the "Updates on the Project" of this README.md file after every contribution you make.
 
 ## Tasks on MNSIT Dataset
 
