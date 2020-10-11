@@ -6,7 +6,7 @@ This project is a part of HELLO-FOSS: Celebration of Open Source by the Web and 
 ## Guidelines
 
 Absolutely No Prerequisites for contributing to this Project.
-We will be using Juniper Notebooks for our Project. If you are an absolute beginner in python have a look at [this](https://github.com/wncc/learners-space/tree/master/Python).
+We will be using Jupyter Notebooks for our Project. If you are an absolute beginner in python have a look at [this](https://github.com/wncc/learners-space/tree/master/Python).
 
 # 1) Titanic: Machine Learning from Disaster
 This is the legendary Titanic ML problem – a good challenge for you to dive into Open Source through ML. The sinking of the Titanic is one of the most infamous shipwrecks in history.
@@ -29,18 +29,18 @@ The test set should be used to see how well your model performs on unseen data. 
 We also include `gender_submission.csv`, a set of predictions that assume all and only female passengers survive, as an example of what a submission file should look like.
 
 ### Problem Statement
-You can choose to do one or more of the following tasks - 
+You can choose to do one or more of the following tasks -
 1. **Exploratory Data Visualisation** - The notebooks already have the part included which provide analysis of main characteristics of data. You are welcome to add to this for visualising more trends.
 2. **Build a Grader** - An `output.csv` file has been included in the folder with [titanic dataset](./titanic). It has the expected predictions corresponding to [test data](./titanic/test.csv) and your task is to write a Python function which takes as input a csv file, compares to the expected output and prints the percentage of accuracy achieved.
 3. **Hyperparameter tuning** - A neural network has been trained on the dataset in [this notebook](./Titanic%20neural%20network%20Tensorflow.ipynb) but it has very low accuracy. Your task is to tune the hyperparameters and improve the model. Some suggestions - modifying the optimizer, adding more hidden layers to the model or changing the dimension of layers, adding dropout, regularization etc.
 4. **Back-Propagation in Numpy** - A neural network has been coded from scratch in Numpy on the dataset in [this notebook](./Titanic%20neural%20network%20Numpy%20from%20scratch.ipynb) but it is incomplete; it misses the function for calculating gradients during back-propagation. Your task is to complete the function for calculating gradients, train the model and output the predictions on test data to a csv file.
-5. **Implementing algorithm in sklearn** - Apart from a neural network, there are many other ML algorithms that can be used to make predictions in this challenge. Notebooks for some of them have been put up but only with data reading and visualisation part completed. Your task is to write the code for implementing the specificied algortihm on the dataset using sklearn library and printing the predictions to a csv file. You can choose from any of the following or get started with one of your own! 
+5. **Implementing algorithm in sklearn** - Apart from a neural network, there are many other ML algorithms that can be used to make predictions in this challenge. Notebooks for some of them have been put up but only with data reading and visualisation part completed. Your task is to write the code for implementing the specificied algortihm on the dataset using sklearn library and printing the predictions to a csv file. You can choose from any of the following or get started with one of your own!
   * [Logistic Regression](./Titanic%20logistic%20regression%20Tensorflow.ipynb)
   * [Support Vector Machine](./Titanic%20SVM%20Tensorflow.ipynb)
   * [Random Forests](./Titanic%20Random%20Forest%20Tensorflow.ipynb)
   * [K-Nearest Neighbours](./Titanic%20KNN%20Tensorflow.ipynb)
   * [Gaussian Naive Bayes model](./Titanic%20GaussianNB%20Tensorflow.ipynb)
-  
+
 # 2) MNIST and Fashion MNIST
 
 **MNIST** ("Modified National Institute of Standards and Technology") is the de facto “hello world” dataset of computer vision. Since its release in 1999, this classic dataset of handwritten images has served as the basis for benchmarking classification algorithms. As new machine learning techniques emerge, MNIST remains a reliable resource for researchers and learners alike. In fact, MNIST is often the first dataset researchers try. "If it doesn't work on MNIST, it won't work at all", they said. "Well, if it does work on MNIST, it may still fail on others."
@@ -50,7 +50,7 @@ Fashion-MNIST is a dataset of Zalando's article images—consisting of a trainin
 The datasets can be downloaded [here](https://github.com/zalandoresearch/fashion-mnist/tree/master/data).
 
 ### Problem Statement
-You can do one or more of the following - 
+You can do one or more of the following -
 
 **Task-1:**
 - A basic model of Neural Networks has been implemented in TensorFlow [Filename: MNIST_CNN].
@@ -68,8 +68,8 @@ You can do one or more of the following -
 - Your task is to train this data in the least time and with the best accuracy. Any algorithm can be used to do so, to implement algorithms in tensorflow refer to [this](https://www.tensorflow.org/tutorials) or [this](https://www.kaggle.com/learn/overview).
 
 **Task-4:**
-- Generative Adversarial Networks, or GANs for short, are an approach to generative modeling using deep learning methods, such as convolutional neural networks. An incomplete DCGAN has been implemented on the MNIST dataset in Tensorflow. 
-- Your task is to define and the Discriminator and Generator Model and the create GIFs for visualising generation of Handwritten Digits from Random Noise. 
+- Generative Adversarial Networks, or GANs for short, are an approach to generative modeling using deep learning methods, such as convolutional neural networks. An incomplete DCGAN has been implemented on the MNIST dataset in Tensorflow.
+- Your task is to define and the Discriminator and Generator Model and the create GIFs for visualising generation of Handwritten Digits from Random Noise.
 - A very detailed explanation of GANs has also been given in the [notebook](./DCGan_MNIST.ipynb)
 
 **Task-5:**
@@ -83,15 +83,13 @@ You can do one or more of the following -
 - Subsequenlty, you have to create a markdown file with display of those generated images and a short summary explaining the theory behind Conditional GANs (Be as creative as you can :)
 
 **Task-7:**
-- All the notebooks we have provided are in Tensorflow as of now. This is a flexible task wherein you have to implement the above in PyTorch. 
+- All the notebooks we have provided are in Tensorflow as of now. This is a flexible task wherein you have to implement the above in PyTorch.
 - You can choose to implement any model of your choice on MNIST or Fashion MNIST.
 
 
-  
+
   Join our [Discord server](https://discord.com/invite/mzhyrvS) for discussing your doubts.
 
 ***
 
 <p align="center">Created with :heart: by <a href="https://www.wncc-iitb.org/">WnCC</a></p>
-
-
