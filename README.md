@@ -24,3 +24,5 @@ Note:  Do update the "Updates on the Project" of this README.md file after every
 - Now that you have performed PCA, implement this data using a KNN or Logistic Regression or any other algorithm you prefer.
 
 ### Task-3:
+- Code to get the training and testing data has already been written [Filename: MNIST_FIT].
+- Your task is to train this data in the least time and with the best accuracy. Any algorithm can be used to do so, to implement algorithms in tensorflow refer to [this](https://www.tensorflow.org/tutorials) or [this](https://www.kaggle.com/learn/overview).
