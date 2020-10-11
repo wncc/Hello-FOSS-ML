@@ -21,6 +21,6 @@ Note:  Do update the "Updates on the Project" of this README.md file after every
 
 - Test data has been loaded and a function to plot this data has also been made [Filename: MNIST_PCA].
 - Your task is to perform PCA on this data, for reference look at the examples [here](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html).
-- Now that you have perfomed PCA, implement this data using a KNN or Logistic Regression or any other algorithm you prefer.
+- Now that you have performed PCA, implement this data using a KNN or Logistic Regression or any other algorithm you prefer.
 
 ### Task-3:
