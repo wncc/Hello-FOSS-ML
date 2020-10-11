@@ -88,7 +88,7 @@ You can do one or more of the following -
 
 
   
-  Join our [Discord](https://discord.com/invite/mzhyrvS) for discussing your doubts.
+  Join our [Discord server](https://discord.com/invite/mzhyrvS) for discussing your doubts.
 
 ***
 
