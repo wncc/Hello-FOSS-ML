@@ -63,4 +63,11 @@ You can choose to do one or more of the following tasks -
   * [Random Forests](./Titanic%20Random%20Forest%20Tensorflow.ipynb)
   * [K-Nearest Neighbours](./Titanic%20KNN%20Tensorflow.ipynb)
   * [Gaussian Naive Bayes model](./Titanic%20GaussianNB%20Tensorflow.ipynb)
+  
+  Join our [Discord](https://discord.com/invite/mzhyrvS) for discussing your doubts.
+
+***
+
+<p align="center">Created with :heart: by <a href="https://www.wncc-iitb.org/">WnCC</a></p>
+
 
