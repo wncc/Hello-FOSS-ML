@@ -41,7 +41,17 @@ You can choose to do one or more of the following tasks -
   * [Random Forests](./Titanic%20Random%20Forest%20Tensorflow.ipynb)
   * [K-Nearest Neighbours](./Titanic%20KNN%20Tensorflow.ipynb)
   * [Gaussian Naive Bayes model](./Titanic%20GaussianNB%20Tensorflow.ipynb)
-  
+### Validating Your Predictions
+You can check your predictions by saving them as a `csv` file in the same directory
+as that of `output.csv` and running the following in the terminal  
+```bash
+~$ python grader.py --path <your_predictions>
+```
+For example,
+```bash
+~$ python grader.py --path gender_submission.csv  
+Your accuracy is 76.56%
+```
 # 2) MNIST and Fashion MNIST
 
 **MNIST** ("Modified National Institute of Standards and Technology") is the de facto “hello world” dataset of computer vision. Since its release in 1999, this classic dataset of handwritten images has served as the basis for benchmarking classification algorithms. As new machine learning techniques emerge, MNIST remains a reliable resource for researchers and learners alike. In fact, MNIST is often the first dataset researchers try. "If it doesn't work on MNIST, it won't work at all", they said. "Well, if it does work on MNIST, it may still fail on others."
