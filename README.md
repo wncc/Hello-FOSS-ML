@@ -6,7 +6,7 @@ This project is a part of HELLO-FOSS: Celebration of Open Source by the Web and 
 ## Guidelines
 
 Absolutely No Prerequisites for contributing to this Project.
-We will be using Juniper Notebooks for our Project. If you are an absolute beginner in python have a look at [this](https://github.com/wncc/learners-space/tree/master/Python).
+We will be using Jupyter Notebooks for our Project. If you are an absolute beginner in python have a look at [this](https://github.com/wncc/learners-space/tree/master/Python).
 NOTE: before sending any pr change the name of the file to TASK(no. of the task)_(your initials).
 
 # 1) Titanic: Machine Learning from Disaster
