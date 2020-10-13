@@ -7,7 +7,7 @@ This project is a part of HELLO-FOSS: Celebration of Open Source by the Web and 
 
 Absolutely No Prerequisites for contributing to this Project.
 We will be using Jupyter Notebooks for our Project. If you are an absolute beginner in python have a look at [this](https://github.com/wncc/learners-space/tree/master/Python).
-NOTE: before sending any pr change the name of the file to TASK(no. of the task)_(your initials).
+**NOTE: before sending any pull request, rename your file to include your initials as - `<filename>_<your_initials>.<extension>`.**
 
 # 1) Titanic: Machine Learning from Disaster
 This is the legendary Titanic ML problem – a good challenge for you to dive into Open Source through ML. The sinking of the Titanic is one of the most infamous shipwrecks in history.
